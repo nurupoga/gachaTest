@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C73795B61C6EC50A009C8760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73795B51C6EC50A009C8760 /* AppDelegate.swift */; };
+		C73795B81C6EC50A009C8760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73795B71C6EC50A009C8760 /* ViewController.swift */; };
+		C73795BB1C6EC50A009C8760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73795B91C6EC50A009C8760 /* Main.storyboard */; };
+		C73795BD1C6EC50A009C8760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73795BC1C6EC50A009C8760 /* Assets.xcassets */; };
+		C73795C01C6EC50A009C8760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73795BE1C6EC50A009C8760 /* LaunchScreen.storyboard */; };
+		C73795CB1C6EC50A009C8760 /* gachaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73795CA1C6EC50A009C8760 /* gachaTestTests.swift */; };
+		C73795D61C6EC50A009C8760 /* gachaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73795D51C6EC50A009C8760 /* gachaTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C73795C71C6EC50A009C8760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73795AA1C6EC50A009C8760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73795B11C6EC50A009C8760;
+			remoteInfo = gachaTest;
+		};
+		C73795D21C6EC50A009C8760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73795AA1C6EC50A009C8760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73795B11C6EC50A009C8760;
+			remoteInfo = gachaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C73795B21C6EC50A009C8760 /* gachaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gachaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73795B51C6EC50A009C8760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C73795B71C6EC50A009C8760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C73795BA1C6EC50A009C8760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C73795BC1C6EC50A009C8760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73795BF1C6EC50A009C8760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C73795C11C6EC50A009C8760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73795C61C6EC50A009C8760 /* gachaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gachaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73795CA1C6EC50A009C8760 /* gachaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gachaTestTests.swift; sourceTree = "<group>"; };
+		C73795CC1C6EC50A009C8760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73795D11C6EC50A009C8760 /* gachaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gachaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73795D51C6EC50A009C8760 /* gachaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gachaTestUITests.swift; sourceTree = "<group>"; };
+		C73795D71C6EC50A009C8760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73795AF1C6EC50A009C8760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73795C31C6EC50A009C8760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73795CE1C6EC50A009C8760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C73795A91C6EC50A009C8760 = {
+			isa = PBXGroup;
+			children = (
+				C73795B41C6EC50A009C8760 /* gachaTest */,
+				C73795C91C6EC50A009C8760 /* gachaTestTests */,
+				C73795D41C6EC50A009C8760 /* gachaTestUITests */,
+				C73795B31C6EC50A009C8760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C73795B31C6EC50A009C8760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73795B21C6EC50A009C8760 /* gachaTest.app */,
+				C73795C61C6EC50A009C8760 /* gachaTestTests.xctest */,
+				C73795D11C6EC50A009C8760 /* gachaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73795B41C6EC50A009C8760 /* gachaTest */ = {
+			isa = PBXGroup;
+			children = (
+				C73795B51C6EC50A009C8760 /* AppDelegate.swift */,
+				C73795B71C6EC50A009C8760 /* ViewController.swift */,
+				C73795B91C6EC50A009C8760 /* Main.storyboard */,
+				C73795BC1C6EC50A009C8760 /* Assets.xcassets */,
+				C73795BE1C6EC50A009C8760 /* LaunchScreen.storyboard */,
+				C73795C11C6EC50A009C8760 /* Info.plist */,
+			);
+			path = gachaTest;
+			sourceTree = "<group>";
+		};
+		C73795C91C6EC50A009C8760 /* gachaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C73795CA1C6EC50A009C8760 /* gachaTestTests.swift */,
+				C73795CC1C6EC50A009C8760 /* Info.plist */,
+			);
+			path = gachaTestTests;
+			sourceTree = "<group>";
+		};
+		C73795D41C6EC50A009C8760 /* gachaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C73795D51C6EC50A009C8760 /* gachaTestUITests.swift */,
+				C73795D71C6EC50A009C8760 /* Info.plist */,
+			);
+			path = gachaTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C73795B11C6EC50A009C8760 /* gachaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73795DA1C6EC50A009C8760 /* Build configuration list for PBXNativeTarget "gachaTest" */;
+			buildPhases = (
+				C73795AE1C6EC50A009C8760 /* Sources */,
+				C73795AF1C6EC50A009C8760 /* Frameworks */,
+				C73795B01C6EC50A009C8760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gachaTest;
+			productName = gachaTest;
+			productReference = C73795B21C6EC50A009C8760 /* gachaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C73795C51C6EC50A009C8760 /* gachaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73795DD1C6EC50A009C8760 /* Build configuration list for PBXNativeTarget "gachaTestTests" */;
+			buildPhases = (
+				C73795C21C6EC50A009C8760 /* Sources */,
+				C73795C31C6EC50A009C8760 /* Frameworks */,
+				C73795C41C6EC50A009C8760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73795C81C6EC50A009C8760 /* PBXTargetDependency */,
+			);
+			name = gachaTestTests;
+			productName = gachaTestTests;
+			productReference = C73795C61C6EC50A009C8760 /* gachaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C73795D01C6EC50A009C8760 /* gachaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73795E01C6EC50A009C8760 /* Build configuration list for PBXNativeTarget "gachaTestUITests" */;
+			buildPhases = (
+				C73795CD1C6EC50A009C8760 /* Sources */,
+				C73795CE1C6EC50A009C8760 /* Frameworks */,
+				C73795CF1C6EC50A009C8760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73795D31C6EC50A009C8760 /* PBXTargetDependency */,
+			);
+			name = gachaTestUITests;
+			productName = gachaTestUITests;
+			productReference = C73795D11C6EC50A009C8760 /* gachaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73795AA1C6EC50A009C8760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ohtatomotaka;
+				TargetAttributes = {
+					C73795B11C6EC50A009C8760 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C73795C51C6EC50A009C8760 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C73795B11C6EC50A009C8760;
+					};
+					C73795D01C6EC50A009C8760 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C73795B11C6EC50A009C8760;
+					};
+				};
+			};
+			buildConfigurationList = C73795AD1C6EC50A009C8760 /* Build configuration list for PBXProject "gachaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C73795A91C6EC50A009C8760;
+			productRefGroup = C73795B31C6EC50A009C8760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C73795B11C6EC50A009C8760 /* gachaTest */,
+				C73795C51C6EC50A009C8760 /* gachaTestTests */,
+				C73795D01C6EC50A009C8760 /* gachaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73795B01C6EC50A009C8760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73795C01C6EC50A009C8760 /* LaunchScreen.storyboard in Resources */,
+				C73795BD1C6EC50A009C8760 /* Assets.xcassets in Resources */,
+				C73795BB1C6EC50A009C8760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73795C41C6EC50A009C8760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73795CF1C6EC50A009C8760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C73795AE1C6EC50A009C8760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73795B81C6EC50A009C8760 /* ViewController.swift in Sources */,
+				C73795B61C6EC50A009C8760 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73795C21C6EC50A009C8760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73795CB1C6EC50A009C8760 /* gachaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73795CD1C6EC50A009C8760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73795D61C6EC50A009C8760 /* gachaTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C73795C81C6EC50A009C8760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73795B11C6EC50A009C8760 /* gachaTest */;
+			targetProxy = C73795C71C6EC50A009C8760 /* PBXContainerItemProxy */;
+		};
+		C73795D31C6EC50A009C8760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73795B11C6EC50A009C8760 /* gachaTest */;
+			targetProxy = C73795D21C6EC50A009C8760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C73795B91C6EC50A009C8760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73795BA1C6EC50A009C8760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C73795BE1C6EC50A009C8760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73795BF1C6EC50A009C8760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C73795D81C6EC50A009C8760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C73795D91C6EC50A009C8760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C73795DB1C6EC50A009C8760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gachaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.temper.gachaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C73795DC1C6EC50A009C8760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gachaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.temper.gachaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C73795DE1C6EC50A009C8760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gachaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.temper.gachaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gachaTest.app/gachaTest";
+			};
+			name = Debug;
+		};
+		C73795DF1C6EC50A009C8760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gachaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.temper.gachaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gachaTest.app/gachaTest";
+			};
+			name = Release;
+		};
+		C73795E11C6EC50A009C8760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gachaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.temper.gachaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gachaTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C73795E21C6EC50A009C8760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gachaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.temper.gachaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gachaTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C73795AD1C6EC50A009C8760 /* Build configuration list for PBXProject "gachaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73795D81C6EC50A009C8760 /* Debug */,
+				C73795D91C6EC50A009C8760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73795DA1C6EC50A009C8760 /* Build configuration list for PBXNativeTarget "gachaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73795DB1C6EC50A009C8760 /* Debug */,
+				C73795DC1C6EC50A009C8760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C73795DD1C6EC50A009C8760 /* Build configuration list for PBXNativeTarget "gachaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73795DE1C6EC50A009C8760 /* Debug */,
+				C73795DF1C6EC50A009C8760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C73795E01C6EC50A009C8760 /* Build configuration list for PBXNativeTarget "gachaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73795E11C6EC50A009C8760 /* Debug */,
+				C73795E21C6EC50A009C8760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C73795AA1C6EC50A009C8760 /* Project object */;
+}
